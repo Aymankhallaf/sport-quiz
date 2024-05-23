@@ -1,0 +1,599 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Formula E is an auto racing series that uses hybrid electric race cars.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Who won the 2015 Formula 1 World Championship?",
+            "correct_answer": "Lewis Hamilton",
+            "incorrect_answers": [
+                "Nico Rosberg",
+                "Sebastian Vettel",
+                "Jenson Button"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "What is the name of Manchester United &#039; s home stadium?",
+            "correct_answer": "Old Trafford",
+            "incorrect_answers": [
+                "Anfield",
+                "City de Manchester Stadium ",
+                " St James Park "
+            ]
+        },
+        {
+            " type ": " multiple ",
+            " difficulty ": " easy ",
+            " category ": " Sports ",
+            " question ": " Quel club de football anglais a le surnom &#039; The Foxes &#039;? ",
+            " correct_answer ": " Leicester City ",
+            " incorrect_answers ": [
+                " Northampton Town ",
+                " Bradford City ",
+                " West Bromwich Albion "
+            ]
+        },
+        {
+            " type ": " boolean ",
+            " difficulty ": " medium ",
+            " category ": " Sports ",
+            " question ": " Wilt Chamberlain a marqué son infâme match de 100 points contre les New York Knicks en 1962. ",
+            " correct_answer ": " True ",
+            " incorrect_answers ": [
+                " False "
+            ]
+        },
+        {
+            " type ": " multiple ",
+            " difficulty ": " easy ",
+            " category ": " Sports ",
+            " question ": " Quelle année les Saints de la Nouvelle-Orléans ont-ils gagné le Super Bowl? ",
+            " correct_answer ": " 2010 ",
+            " incorrect_answers ": [
+                "2008",
+                "2009",
+                "2011"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Qui a remporté le championnat du monde de Formule 1 2017 &#039;?",
+            "correct_answer": "Lewis Hamilton",
+            "incorrect_answers": [
+                "Sebastian Vettel",
+                "Nico Rosberg",
+                "Max Verstappen"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Quelle équipe était les champions de la NBA 2014-2015?",
+            "correct_answer": "Golden State Warriors",
+            "incorrect_answers": [
+                "Cleveland Cavaliers",
+                "Houston Rockets",
+                "Atlanta Hawks"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "En 2016, qui a remporté le championnat du monde de Formule 1 &#039; s pour la troisième fois consécutive?",
+            "correct_answer": "Mercedes-AMG Petronas",
+            "incorrect_answers": [
+                "Scuderia Ferrari",
+                "McLaren Honda",
+                "Red Bull Racing Renault"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Dans quel sport Fanny Chmelar participe-t-elle pour l'Allemagne?",
+            "correct_answer": "Skiing",
+            "incorrect_answers": [
+                "Natation",
+                "Saut d'obstacles",
+                "Gymnastique"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Combien de matchs Arsenal FC a-t-il été invaincu au cours de la saison 2003-2004 de la Premier League anglaise",
+            "correct_answer": "38",
+            "incorrect_answers": [
+                "51",
+                "49",
+                "22"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Quelle société automobile est la seule société japonaise qui a remporté le prix 24 Heures du Mans?",
+            "correct_answer": "Mazda",
+            "incorrect_answers": [
+                "Toyota",
+                "Subaru",
+                "Nissan"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Lequel de ces pays &#039; les équipes nationales se sont qualifiées pour la Coupe du Monde de la FIFA 2018 en Russie?",
+            "correct_answer": "Tunisia",
+            "incorrect_answers": [
+                "United States of America",
+                "Italy",
+                "Netherlands"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Avec qui Steven Gerrard a-t-il remporté la Ligue des Champions?",
+            "correct_answer": "Liverpool",
+            "incorrect_answers": [
+                "Real Madrid",
+                "Chelsea",
+                "Man City"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Il y a un total de 20 courses dans la saison 2016 de Formule 1.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Quelle équipe de basket-ball a assisté le plus de finales NBA?",
+            "correct_answer": "Los Angeles Lakers",
+            "incorrect_answers": [
+                "Boston Celtics",
+                "Philadelphia 76ers",
+                "Golden State Warriors"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "What is &ldquo; The Sport of Kings&rdquo;?",
+            "correct_answer": "Horse Racing",
+            "incorrect_answers": [
+                "Chess",
+                "Jousting",
+                "Fencing"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Why was The Green Monster at Fen Parkway was built originally?",
+            "correct_answer": "Pour empêcher la visualisation des jeux depuis l'extérieur du parc.",
+            "incorrect_answers": [
+                "Pour rendre plus difficile le retour à la maison.",
+                "Pour afficher des publicités.",
+                "Pour fournir des sièges supplémentaires."
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulté ": " moyen ",
+            " catégorie ": " Sports ",
+            " question ": "Quel est le nom de la filiale AHL des Maple Leafs de Toronto?",
+            " réponse_correcte ": "Toronto Marlies",
+            " réponses_incorrectes ": [
+                "Toronto Rock",
+                "Toronto Argonauts",
+                "Toronto Wolfpack"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulté": "facile",
+            "catégorie": "Sports",
+            "question": "Dans le bowling, quel est le terme utilisé pour obtenir trois coups consécutifs?",
+            " réponse_correcte ": "Turquie",
+            " réponses_incorrectes ": [
+                "Flamingo",
+                "Birdie",
+                "Eagle"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulté": "moyen",
+            "catégorie": "Sports",
+            "question": "Quelle île portugaise est le joueur de football Cristiano Ronaldo de?",
+            " réponse_correcte ": "Madeira",
+            "incorrect_answers": [
+                "Terceira",
+                "Santa Maria",
+                "Porto Santo"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Quelle équipe l'Angleterre a-t-elle battue en demi-finale pour gagner la finale de la Coupe du Monde 1966?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                "West Germany",
+                "Soviet Union",
+                "Brazil"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Lequel des sports suivants ne fait pas partie du triathlon?",
+            "correct_answer": " Horse-Riding ",
+            "incorrect_answers": [
+                "Cycling",
+                "Swimming",
+                "Running"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Qui a remporté le championnat du monde de Formule 1 2016?",
+            "correct_answer": "Nico Rosberg",
+            "incorrect_answers": [
+                "Lewis Hamilton",
+                "Max Verstappen",
+                "Kimi Raikkonen"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Où se sont déroulés les Jeux de la XXIIe Olympiade?",
+            "correct_answer": "Moscow",
+            "incorrect_answers": [
+                "Barcelona",
+                "Tokyo",
+                "Los Angeles"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Quel constructeur automobile a remporté les 24 Heures du Mans 2017?",
+            "correct_answer": "Porsche",
+            "incorrect_answers": [
+                "Toyota ",
+                " Audi ",
+                " Chevrolet"
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulty ": " medium ",
+            " category ": " Sports ",
+            " question ": "Qui a remporté la Coupe Stanley 2011?",
+            "correct_answer": "Boston Bruins",
+            "incorrect_answers": [
+                "Montreal Canadiens",
+                "New York Rangers",
+                "Toronto Maple Leafs"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+            "correct_answer": "1-7",
+            "incorrect_answers": [
+                "1-5",
+                "1-6",
+                "2-6"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Which African American is in part responsible for integrating Major League baseball?",
+            "correct_answer": "Jackie Robinson",
+            "incorrect_answers": [
+                "Curt Flood",
+                "Roy Campanella",
+                "Satchell Paige"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "In which sport is a &quot; shuttlecock&quot; used?",
+            "correct_answer": "Badminton",
+            "incorrect_answers": [
+                " Tennis de table ",
+                "Rugby",
+                "Cricket"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulté": "facile",
+            "catégorie": "Sports",
+            "question": "Quelle équipe l'Angleterre a-t-elle battu pour gagner la finale de la Coupe du Monde 1966?",
+            " correct_answer ": " Allemagne de l'Ouest ",
+            " incorrect_answers ": [
+                " Union soviétique ",
+                " Portugal ",
+                " Brésil "
+            ]
+        },
+        {
+            " type ": " multiple ",
+            " difficulté ": " facile ",
+            " catégorie ": " Sports ",
+            " question ": "Quelle équipe a remporté la Premier League anglaise 2015-16?",
+            " correct_answer ": " Leicester City ",
+            " incorrect_answers ": [
+                " Liverpool ",
+                " Cheslea ",
+                " Manchester United"
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulté ": " medium ",
+            " catégorie ": " Sports ",
+            " question ": "Laquelle de ces équipes est &#039; t un membre de la NHL &#039; s &quot; Original Six&quot; era?",
+            "correct_answer": "Philadelphia Flyers",
+            "incorrect_answers": [
+                "New York Rangers",
+                "Toronto Maple Leafs",
+                "Boston Bruins"
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulty ": " medium ",
+            " category ": " Sports ",
+            " question ": "Qui était le meilleur buteur de la Coupe du Monde de la FIFA 2014?",
+            "correct_answer": "James Rodr&iacute;guez",
+            "incorrect_answers": [
+                "Thomas M&uuml;ller",
+                "Lionel Messi",
+                "Neymar"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Dans le baseball, combien de fois le ballon doit-il être lancé en dehors de la zone de frappe avant que le frappeur ne marche?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Quelle est la plus ancienne équipe de la Ligue majeure de baseball?",
+            "correct_answer": "Braves d'Atlanta",
+            "incorrect_answers": [
+                "Cubs de Chicago",
+                "Reds de Cincinnati",
+                "St. Louis Cardinals"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "Combien de trophées de Premier League Sir Alex Ferguson a-t-il remporté pendant son séjour à Manchester United?",
+            "correct_answer": "13",
+            "incorrect_answers": [
+                "11",
+                "20",
+                "22"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Combien de joueurs de football devraient être sur le terrain en même temps?",
+            "correct_answer": " 22 ",
+            "incorrect_answers": [
+                "20 ",
+                " 24 ",
+                " 26"
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulty ": " medium ",
+            " category ": " Sports ",
+            " question ": "Lequel des joueurs suivants a marqué un hat-trick lors de ses débuts à Manchester United?",
+            "_correct answer": "Wayne Rooney",
+            "incorrect_answers": [
+                "Cristiano Ronaldo",
+                "Robin Van Persie",
+                "David Beckham"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "Quel pays a accueilli la Coupe du Monde de la FIFA 2022?",
+            "correct_answer": "Qatar",
+            "incorrect_answers": [
+                "USA",
+                "Japan",
+                "Switzerland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "What is Tiger Woods &#039; all-time best career golf-score?",
+            "correct_answer": "61",
+            "incorrect_answers": [
+                "65",
+                "63",
+                "67"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "How many French Open &#039; s did Bj&ouml;rn Borg win?",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                "4",
+                "9",
+                "2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulté": "hard",
+            "category": "Sports",
+            "question": "Dans le football canadien, marquer un rouge vaut combien de points?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "facile",
+            "category": "Sports",
+            "question": "Quel pays a accueilli la Coupe du Monde de la FIFA 2018?",
+            "correct_answer": "Russie",
+            "incorrect_answers": [
+                "Allemagne",
+                "États-Unis",
+                "Arabie Saoudite"
+            ]
+        },
+        {
+            "type": "multiple",
+            "Difficulté": "facile",
+            "category": "Sports",
+            "question": "Quel a été le score final de l'Allemagne vs. Brazil 2014 FIFA World Cup match?",
+            "correct_answer": "7 - 1",
+            "incorrect_answers": [
+                "0 - 1",
+                "3 - 4",
+                "16 - 0"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Sports",
+            "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+            "correct_answer": "Jules Bianchi",
+            "incorrect_answers": [
+                "Ayrton Senna",
+                "Ronald Ratzenberger",
+                "Gilles Villeneuve"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Sports",
+            "question": "This Canadian television sportscaster is known for his &quot; Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+            "correct_answer": "Don Cherry",
+            "incorrect_answers": [
+                "Don McKellar",
+                "Don Taylor ",
+                "Donald Sutherland"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Sports",
+            "question": "Quel footballeur italien a dit à Neuer où il mettait son tir et le traînait large, pendant le match Italie-Allemagne, UEFA EURO 2016?",
+            "correct_answer": " Pelle ",
+            "incorrect_answers": [
+                " Insigne ",
+                " Barzagli ",
+                " Giaccherini"
+            ]
+        },
+        {
+            "type ": " multiple ",
+            " difficulty ": " medium ",
+            " category ": " Sports ",
+            " question ": "Quelle est la plus ancienne équipe de la NFL?",
+            " correct_answer ": " Arizona Cardinals ",
+            " incorrect_answers ": [
+                " Chicago Bears ",
+                " Green Bay Packers ",
+                " New York Giants "
+            ]
+        },
+        {
+            " type ": " multiple ",
+            " difficulty ": " easy ",
+            " category ": " Sports ",
+            " question ": "Quelles sont les deux équipes qui ont joué dans Super Bowl XLII?",
+            "correct_answer": "The New York Giants &amp; The New England Patriots",
+            "incorrect_answers": [
+                "The Green Bay Packers &amp; The Pittsburgh Steelers",
+                "The Philadelphia Eagles &amp; The New England Patriots",
+                "The Seattle Seahawks &amp; The Denver Broncos"
+            ]
+        }
+    ]
+}
