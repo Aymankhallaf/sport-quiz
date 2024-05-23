@@ -37,3 +37,38 @@ button {
     background: none;
     cursor: pointer;
 }
+
+/* start game */
+.start-game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    /* gap: 3rem; */
+}
+
+.start-game_img {
+    margin: 3.4rem auto 0 auto;
+}
+
+.start-game_ttl {
+    margin: auto 1.5rem;
+    font-size: 1.2rem;
+    color: var(--heading-color);
+}
+
+.start-game_txt {
+    font-size: 1rem;
+    margin: auto 1.5rem;
+}
+
+.start-game_btn {
+    width: 12rem;
+    aspect-ratio: 240/84;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    color: var(--font-color);
+    background-color: var(--btn-color);
+}
