@@ -1,0 +1,39 @@
+:root {
+    font-size: 20px;
+    --background-color: #26547c;
+    --font-color: #fcfcfc;
+    --heading-color: #ffd166;
+    --btn-color: #06d6a0;
+    --error-color: #ef476f;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--background-color);
+    font-family: "Russo One", sans-serif;
+    font-size: 1rem;
+}
+
+/* RESET  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
