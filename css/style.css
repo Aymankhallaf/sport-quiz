@@ -6,6 +6,11 @@
     --btn-color: #06d6a0;
     --error-color: #ef476f;
 }
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 24px;
+    }
+}
 
 body {
     color: var(--font-color);
@@ -49,8 +54,6 @@ button {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-    /* gap: 3rem; */
 }
 
 .start-game_img {
@@ -82,4 +85,23 @@ button {
 :focus {
     background-color: var(--font-color);
     color: var(--btn-color);
+}
+
+@media screen and (min-width: 768px) {
+    .start-game_btn {
+        width: 10rem;
+
+    }
+}
+
+/* quiz */
+.quiz-header {
+display: flex;
+justify-content: space-between;
+}
+
+.quiz-ttl, .quiz-score {
+    margin: 3rem 1rem;
+font-size: 1rem;
+color: var(--heading-color);
 }
