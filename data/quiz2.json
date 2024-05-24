@@ -17,7 +17,7 @@
             "type": "multiple",
             "difficulty": "hard",
             "category": "Sports",
-            "question": "Quel est le nom complet du footballeur &quot; Cristiano Ronaldo&quot;?",
+            "question": "Quel est le nom complet du footballeur; Cristiano Ronaldo?",
             "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
             "incorrect_answers": [
                 "Cristiano Ronaldo ldoos Santos Diego",
@@ -29,7 +29,7 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Sports",
-            "question": "What is Tiger & Woods#039; all-time best career golf-score?",
+            "question": "What is Tiger Woods; all-time best career golf-score?",
             "_correct": "61",
             "61 incorrect_answers": [
                 "65",
@@ -77,7 +77,7 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Quelle équipe de football a remporté le championnat Copa Am&eacute;rica 2015? ",
+            " question ": " Quelle équipe de football a remporté le championnat Copa  América 2015? ",
             " correct_answer ": " Chile ",
             " incorrect_answers ": [
                 " Argentina ",
@@ -125,7 +125,7 @@
             "type": "multiple",
             "difficulty": "medium",
             "category": "Sports",
-            "question": "Qui a remporté la &quot; Champions League&quot; en 1999?",
+            "question": "Qui a gagné la Ligue des champions 1999?",
             "correct_answer": "Manchester United",
             "incorrect_answers": [
                 "Barcelona",
@@ -159,7 +159,7 @@
             " type ": " multiple ",
             " difficulté ": " facile ",
             " category ": " Sports ",
-            " question ": " Quel club de football anglais a le surnom &#039; The Foxes &#039;? ",
+            " question ": " Quel club de football anglais a le surnom ' The Foxes ';? ",
             " correct_answer ": " Leicester City ",
             " incorrect_answers ": [
                 " Northampton Town ",
@@ -171,7 +171,7 @@
             " type ": " multiple ",
             " difficulté ": " facile ",
             " category ": " Sports ",
-            " question ": " Qui a remporté le championnat du monde de Formule 1 2016 &#039; s? ",
+            " question ": " Qui a remporté le championnat du monde de Formule 1 2016 '; s? ",
             " correct_answer ": " Nico Rosberg ",
             " incorrect_answers ": [
                 " Lewis Hamilton ",
@@ -205,7 +205,7 @@
             "type": "multiple",
             "difficulté": "moyen",
             "category": "Sports",
-            "question": "En 2016, qui a remporté le championnat du monde de Formule 1 Constructor &#039; s pour la troisième fois consécutive?",
+            "question": "En 2016, qui a remporté le championnat du monde de Formule 1 Constructor '; s pour la troisième fois consécutive?",
             "correct_answer": "Mercedes-AMG Petronas",
             "incorrect_answers": [
                 "Scuderia Ferrari",
@@ -256,7 +256,7 @@
             "incorrect_answers": [
                 "The Showdown (Australia)",
                 "Verstappen on Fire (Germany)",
-                "Schumacher &#039; s Ban (Britain)"
+                "Schumacher '; s Ban (Britain)"
             ]
         },
         {
@@ -347,7 +347,7 @@
             " type ": " multiple ",
             " difficult ": " easy ",
             " category ": " Sports ",
-            " question ": " Who often called &quot; the Maestro&quot; in the men &#039; s tennis circuit? ",
+            " question ": " Who often called &quot; the Maestro&quot; in the men's tennis circuit? ",
             " correct_answer ": " Roger Federer ",
             " incorrect_answers ": [
                 " Bill Tilden ",
@@ -359,7 +359,7 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " What is the nickname of Northampton town &#039;' s rugby union club? ",
+            " question ": " What is the nickname of Northampton town's rugby union club? ",
             " correct_answer ": " Saints ",
             " incorrect_answers ": [
                 " Harlequins ",
@@ -407,7 +407,7 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Quel est le nom du stade de Manchester United &#039;? ",
+            " question ": " Quel est le nom du stade de Manchester United '? ",
             " correct_answer ": " Old Trafford ",
             " incorrect_answers ": [
                 " Anfield ",
@@ -513,7 +513,7 @@
             " type ": " multiple ",
             " difficulty ": " hard ",
             " category ": " Sports ",
-            " question ": " What tool lend it &#039; s name to a last-stone advantage in an end in Curling? ",
+            " question ": " What tool lend it ' s name to a last-stone advantage in an end in Curling? ",
             " correct_answer ": " Hammer ",
             " incorrect_answers ": [
                 " Wrench ",
