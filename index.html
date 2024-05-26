@@ -18,32 +18,23 @@
             <button id="start-game_btn" type="button" title="start" class="btn start-game_btn">Commencer</button>
         </section>
         <section id="quiz" class="quiz hidden">
-            <header class="quiz-header">
-                <h2 class="quiz-ttl">Question 1</h2>
-                <p class="quiz-score">Score:0</p>
-            </header>
-            <div class="quiz-container">
-                <img class="quiz__img" src="./img/archery.svg" alt="olymbic sport icon">
-                <h3 class="quiz__question">Quel est le nom complet du footballeur; Cristiano Ronaldo?</h3>
-                <ul class="quiz__question__answers">
-                    <li class="quiz-question__li"><button class="btn quiz__answer" type="button"
-                            title="answer">Cristiano
-                            Ronaldo dos Aveiro</button></li>
-                    <li class="quiz-question__li"><button class="btn quiz__answer" type="button"
-                            title="answer">Cristiano
-                            Ronaldo ldoos Santos Diego</button></li>
-                    <li class="quiz-question__li"><button class="btn quiz__answer" type="button"
-                            title="answer">Cristiano
-                            Ronaldo dos Santos Aveiro</button></li>
-                    <li class="quiz-question__li"><button class="btn quiz__answer" type="button"
-                            title="answer">Cristiano
-                            Luis
-                            Armando Ronaldo</button></li>
-                </ul>
-            </div>
 
+            <template id="quiz-template">
+                <header class="quiz-header">
+                    <h2 class="quiz-ttl js-quiz-ttl">Question 1</h2>
+                    <p class="quiz-score js-quiz-score">Score:0</p>
+                </header>
+                <div class="quiz-container">
+                    <img class="quiz__img" src="./img/archery.svg" alt="olymbic sport icon">
+                    <h3 class="quiz__question js-quiz__question">Quel est le nom complet du footballeur; Cristiano
+                        Ronaldo?</h3>
+                    <ul class="quiz__question__answers">
+                        <li class="quiz-question__li js-quiz-question__li"><button class="btn quiz__answer"
+                                type="button" title="answer">Cristiano
+                                Ronaldo dos Aveiro</button></li>
 
-            <template id="quiz">
+                    </ul>
+                </div>
             </template>
 
 

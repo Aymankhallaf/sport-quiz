@@ -1,5 +1,6 @@
 import data from '../data/quiz2.json' with { type: 'json' };
 import { BoardGame } from './game.js'
+import { displayBoard } from './ui.js';
 
 
 //start game button
@@ -21,4 +22,13 @@ console.log(game.currentQuestion);
 console.log(game.score);
 console.log(game.isGameOver())
 
+displayBoard(game)
 
+
+
+while (game.isGameOver()) {
+    console.log(game.currentQuestion);
+    console.log(game.score);
+    console.log(game.isGameOver())
+    displayBoard(game)
+}
