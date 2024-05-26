@@ -14,7 +14,7 @@ class Question {
             this.choices.push(element);
         }
         );
-        this.choices.push(this.answer)
+        this.choices.push(this.correctAnswer)
 
     }
 
@@ -32,7 +32,6 @@ class BoardGame {
         this.score = 0;
         this.nQuestion = 0;
         this.questionList = questionList;
-        console.log(questionList)
         this.currentQuestion = null;
     }
 
@@ -40,9 +39,9 @@ class BoardGame {
         const q = getRandomQuestion(this.questionList);
         console.log(q)
         this.answeredQuestions.push(q);
-        // this.currentQuestion = new Question(q.question, q.correct_answer);
-        // this.currentQuestion.getChoices(q.indexOf)
-        // console.log(this.currentQuestion);
+        this.currentQuestion = new Question(q.question, q.correct_answer);
+        this.currentQuestion.getChoices(q.incorrect_answers)
+        console.log(this.currentQuestion);
 
 
 
@@ -70,7 +69,6 @@ function shuffle(array) {
  */
 function getRandomQuestion(questionsLst) {
 
-    console.log(Object.keys(questionsLst).length)
     return questionsLst[Math.floor(Math.random() * Object.keys(questionsLst).length)];
 
 
