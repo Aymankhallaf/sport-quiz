@@ -32,21 +32,23 @@ class BoardGame {
         this.score = 0;
         this.nQuestion = 0;
         this.questionList = questionList;
-        this.currentQuestion=null;
+        console.log(questionList)
+        this.currentQuestion = null;
     }
 
     showQuestion() {
         const q = getRandomQuestion(this.questionList);
+        console.log(q)
         this.answeredQuestions.push(q);
-        this.currentQuestion=new Question(q.question,q.correct_answer);
-        this.currentQuestion.getChoices(q.indexOf)
-        console.log(this.currentQuestion);
+        // this.currentQuestion = new Question(q.question, q.correct_answer);
+        // this.currentQuestion.getChoices(q.indexOf)
+        // console.log(this.currentQuestion);
 
-    
-        
+
+
     }
 
-    
+
 
 
 }
@@ -54,7 +56,7 @@ class BoardGame {
 /**
  * Shuffles any array.
  * @param {*} array 
- * @returns the same array adter shuffling
+ * @returns the same array after shuffling
  */
 function shuffle(array) {
     return array.sort(() => Math.random() - 0.5);
@@ -64,14 +66,15 @@ function shuffle(array) {
 /**
  * Get a random question from list.
  * @param {array} questionsLst a list of question;
- * @returns {array} a random question.
+ * @returns {object} a random question.
  */
 function getRandomQuestion(questionsLst) {
 
-    return questionsLst[Math.floor(Math.random() * questionsLst.lenght)];
+    console.log(Object.keys(questionsLst).length)
+    return questionsLst[Math.floor(Math.random() * Object.keys(questionsLst).length)];
 
 
 }
 
 
-export{BoardGame}
+export { BoardGame }
