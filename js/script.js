@@ -17,7 +17,6 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 //Game Board
 
 const game = new BoardGame(data.results, 10);
-game.showQuestion();
 console.log(game.currentQuestion);
 console.log(game.score);
 console.log(game.isGameOver())

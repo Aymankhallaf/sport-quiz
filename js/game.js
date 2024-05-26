@@ -1,19 +1,21 @@
 
 class Question {
     constructor(q) {
+        console.log(q)
         this.qText = q.question;
         this.correctAnswer = q.correct_answer;
+        this.incorrect_answers = q.incorrect_answers;
         this.choices = [];
-        this.getChoices(q);
+        console.log(this.choices)
+        this.getChoices();
 
     }
     /**
      * puts the correct answer and incorrect answers in one array.
      * 
      *      */
-    getChoices(q) {
-
-        q.incorrect_answers.forEach(a => {
+    getChoices() {
+        this.incorrect_answers.forEach(a => {
             this.choices.push(a);
         }
         );
@@ -24,19 +26,14 @@ class Question {
 }
 
 
-// console.log(data.results[0]['question'])
-// const q1 = new Question(data.results[0]['question'], data.results[0]["correct_answer"])
-// q1.getChoices(data.results[0]['incorrect_answers']);
-// console.log(shuffle(q1.choices));
-// console.log(q1)
 class BoardGame {
     constructor(questionList, numberOFQuestions) {
-        this.answeredQuestions = []
-        this.score = 0;
-        this.nQuestion = 0;
         this.questionList = questionList;
-        this.currentQuestion = null;
         this.numberOFQuestions = numberOFQuestions;
+        this.answeredQuestions = []
+        this.score = 1;
+        this.nQuestion = 1;
+        this.currentQuestion = this.showQuestion();
     }
 
     showQuestion() {
@@ -44,25 +41,28 @@ class BoardGame {
         this.answeredQuestions.push(q);
         this.currentQuestion = new Question(q);
         console.log(this.currentQuestion);
+        return this.currentQuestion
     }
 
     isGameOver() {
         return this.nQuestion > this.numberOFQuestions;
     }
 
+    isRightAnswer(choiceAnswer) {
+        return (choiceAnswer === this.currentQuestion.correctAnswer)
+    }
+
+    updateBoardGame() {
+        this.nQuestion = +1;
+        if (this.isRightAnswer) {
+            this.score = +1;
+        }
+        this.showQuestion()
+    }
 
 
 
 }
-
-/**
- * Shuffles any array.
- * @param {*} array 
- * @returns the same array after shuffling
- */
-function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
-};
 
 
 /**

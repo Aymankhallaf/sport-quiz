@@ -7,7 +7,7 @@ export function displayBoard(game) {
     //answers
     const choices = shuffle(game.currentQuestion.choices);
     const answersTemplate = document.getElementById("answers-template");
-    const answerSection = document.querySelector(".js-quiz__question__answers");
+    const answerSection = document.getElementById("quiz-answers");
     choices.forEach(a => {
         console.log(a)
         const answerClone = document.importNode(answersTemplate.content, true);

@@ -76,9 +76,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Quelle équipe de football a remporté le championnat Copa  América 2015? ",
-            " correct_answer ": " Chile ",
-            " incorrect_answers ": [
+            "question": " Quelle équipe de football a remporté le championnat Copa  América 2015? ",
+            "correct_answer": " Chile ",
+            "incorrect_answers": [
                 " Argentina ",
                 " Brazil ",
                 " Paraguay "
@@ -88,9 +88,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Quelle est la plus ancienne équipe de la NFL? ",
-            " correct_answer ": " Arizona Cardinals ",
-            " incorrect_answers ": [
+            "question": " Quelle est la plus ancienne équipe de la NFL? ",
+            "correct_answer": " Arizona Cardinals ",
+            "incorrect_answers": [
                 " Chicago Bears ",
                 " Green Bay Packers ",
                 " New York Giants "
@@ -100,9 +100,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Qui a remporté le titre de champion de la saison 2015-2016 après une course de conte de fées? ",
-            " correct_answer ": " Leester City ",
-            " incorrect_answers ": [
+            "question": " Qui a remporté le titre de champion de la saison 2015-2016 après une course de conte de fées? ",
+            "correct_answer": " Leester City ",
+            "incorrect_answers": [
                 "Tottenham Hotsurpots",
                 "Watford",
                 "Stoke City"
@@ -148,9 +148,9 @@
             "type": "boolean",
             "difficulty": "medium",
             "category": "Sports ",
-            " question ": " Le tennis était autrefois connu sous le nom de Racquetball. ",
-            " correct_answer ": " Faux ",
-            " incorrect_answers ": [
+            "question": " Le tennis était autrefois connu sous le nom de Racquetball. ",
+            "correct_answer": " Faux ",
+            "incorrect_answers": [
                 " Vrai "
             ]
         },
@@ -158,9 +158,9 @@
             " type ": " multiple ",
             " difficulté ": " facile ",
             " category ": " Sports ",
-            " question ": " Quel club de football anglais a le surnom ' The Foxes ';? ",
-            " correct_answer ": " Leicester City ",
-            " incorrect_answers ": [
+            "question": " Quel club de football anglais a le surnom ' The Foxes ';? ",
+            "correct_answer": " Leicester City ",
+            "incorrect_answers": [
                 " Northampton Town ",
                 " Bradford City ",
                 " West Bromwich Albion "
@@ -275,8 +275,8 @@
             "difficulty": "medium",
             "category": "Sports",
             "question ": " Quelle était l'équipe? Champions NBA 2014-2015? ",
-            " correct_answer ": " Golden State Warriors ",
-            " incorrect_answers ": [
+            "correct_answer": " Golden State Warriors ",
+            "incorrect_answers": [
                 " Cleveland Cavaliers ",
                 " Houston Rockets ",
                 " Atlanta Hawks "
@@ -286,9 +286,9 @@
             " type ": " multiple ",
             " difficulty ": " hard ",
             " category ": " Sports ",
-            " question ": " Avec quel partenaire double John McEnroe a-t-il eu le plus de succès? ",
-            " correct_answer ": " Peter Fleming ",
-            " incorrect_answers ": [
+            "question": " Avec quel partenaire double John McEnroe a-t-il eu le plus de succès? ",
+            "correct_answer": " Peter Fleming ",
+            "incorrect_answers": [
                 " Mark Woodforde ",
                 " Michael Stich ",
                 " Mary Carillo "
@@ -298,9 +298,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Quel pilote de Formule 1 a changé d'équipe au milieu de la saison 2017? ",
-            " correct_answer ": " Carlos Sainz Jr. ",
-            " incorrect_answers ": [
+            "question": " Quel pilote de Formule 1 a changé d'équipe au milieu de la saison 2017? ",
+            "correct_answer": " Carlos Sainz Jr. ",
+            "incorrect_answers": [
                 " Daniil Kvyat ",
                 " Jolyon Palmer ",
                 " Rio Haryanto "
@@ -310,9 +310,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Dans quel sport un &quot; shuttlecock&quot; est-il utilisé? ",
-            " correct_answer ": " Badminton ",
-            " incorrect_answers ": [
+            "question": " Dans quel sport un &quot; shuttlecock&quot; est-il utilisé? ",
+            "correct_answer": " Badminton ",
+            "incorrect_answers": [
                 " Tennis de table ",
                 " Rugby ",
                 " Cricket "
@@ -322,9 +322,9 @@
             " type ": " multiple ",
             " difficult ": " medium ",
             " category ": " Sports ",
-            " question ": " En Formule 1, la voiture de sécurité virtuelle a été introduite à la suite de l'accident mortel de quel pilote? ",
-            " correct_answer ": " Jules Bianchi ",
-            " incorrect_answers ": [
+            "question": " En Formule 1, la voiture de sécurité virtuelle a été introduite à la suite de l'accident mortel de quel pilote? ",
+            "correct_answer": " Jules Bianchi ",
+            "incorrect_answers": [
                 " Ayrton Senna ",
                 " Ronald Ratzenberger ",
                 " Gilles Villeneuve "
@@ -334,9 +334,9 @@
             " type ": " multiple ",
             " difficult ": " easy ",
             " category ": " Sports ",
-            " question ": " Quand le FC Schalke 04 a-t-il été fondé? ",
-            " correct_answer ": "1904 ",
-            " incorrect_answers ": [
+            "question": " Quand le FC Schalke 04 a-t-il été fondé? ",
+            "correct_answer": "1904 ",
+            "incorrect_answers": [
                 "1909 ",
                 "2008 ",
                 "1999 "
@@ -346,9 +346,9 @@
             " type ": " multiple ",
             " difficult ": " easy ",
             " category ": " Sports ",
-            " question ": " Who often called &quot; the Maestro&quot; in the men's tennis circuit? ",
-            " correct_answer ": " Roger Federer ",
-            " incorrect_answers ": [
+            "question": " Who often called &quot; the Maestro&quot; in the men's tennis circuit? ",
+            "correct_answer": " Roger Federer ",
+            "incorrect_answers": [
                 " Bill Tilden ",
                 " Boris Becker ",
                 " Pete Sampras "
@@ -358,9 +358,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " What is the nickname of Northampton town's rugby union club? ",
-            " correct_answer ": " Saints ",
-            " incorrect_answers ": [
+            "question": " What is the nickname of Northampton town's rugby union club? ",
+            "correct_answer": " Saints ",
+            "incorrect_answers": [
                 " Harlequins ",
                 " Saracens ",
                 " Wasps "
@@ -370,9 +370,9 @@
             " type ": " multiple ",
             " difficulty ": " hard ",
             " category ": " Sports ",
-            " question ": " What year was the third Super Bowl held? ",
-            " correct_answer ": "1969 ",
-            " incorrect_answers ": [
+            "question": " What year was the third Super Bowl held? ",
+            "correct_answer": "1969 ",
+            "incorrect_answers": [
                 "1968 ",
                 "1971 ",
                 "1970 "
@@ -383,8 +383,8 @@
             " difficulty ": " easy ",
             "category": "Sports",
             "question": "Au bowling, le terme est-il utilisé pour obtenir trois coups consécutifs? ",
-            " correct_answer ": " Turkey ",
-            " incorrect_answers ": [
+            "correct_answer": " Turkey ",
+            "incorrect_answers": [
                 " Flamingo ",
                 " Birdie ",
                 " Eagle "
@@ -394,9 +394,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Dans le golf, quel est le nom donné à un score de trou de deux sous le par? ",
-            " correct_answer ": " Eagle ",
-            " incorrect_answers ": [
+            "question": " Dans le golf, quel est le nom donné à un score de trou de deux sous le par? ",
+            "correct_answer": " Eagle ",
+            "incorrect_answers": [
                 " Birdie ",
                 " Bogey ",
                 " Albatross "
@@ -406,9 +406,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Quel est le nom du stade de Manchester United '? ",
-            " correct_answer ": " Old Trafford ",
-            " incorrect_answers ": [
+            "question": " Quel est le nom du stade de Manchester United '? ",
+            "correct_answer": " Old Trafford ",
+            "incorrect_answers": [
                 " Anfield ",
                 " City of Manchester Stadium ",
                 " St James Park "
@@ -488,9 +488,9 @@
             "type": "multiple",
             "difficulty": "medium",
             "category ": " Sports ",
-            " question ": " which bridge does the annual Oxford and Cambridge boat race start? ",
-            " correct_answer ": " Putney ",
-            " incorrect_answers ": [
+            "question": " which bridge does the annual Oxford and Cambridge boat race start? ",
+            "correct_answer": " Putney ",
+            "incorrect_answers": [
                 " Hammersmith ",
                 " Vauxhall ",
                 " Battersea "
@@ -500,9 +500,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Quelle équipe nationale a remporté l'édition 2016 du Championnat d'Europe de l'UEFA? ",
-            " correct_answer ": " Portugal ",
-            " incorrect_answers ": [
+            "question": " Quelle équipe nationale a remporté l'édition 2016 du Championnat d'Europe de l'UEFA? ",
+            "correct_answer": " Portugal ",
+            "incorrect_answers": [
                 " France ",
                 " Germany ",
                 " England "
@@ -512,9 +512,9 @@
             " type ": " multiple ",
             " difficulty ": " hard ",
             " category ": " Sports ",
-            " question ": " What tool lend it ' s name to a last-stone advantage in an end in Curling? ",
-            " correct_answer ": " Hammer ",
-            " incorrect_answers ": [
+            "question": " What tool lend it ' s name to a last-stone advantage in an end in Curling? ",
+            "correct_answer": " Hammer ",
+            "incorrect_answers": [
                 " Wrench ",
                 " Drill ",
                 " Screwdriver "
@@ -524,9 +524,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Quelle équipe a remporté la Premier League anglaise 2015-16? ",
-            " correct_answer ": " Leicester City ",
-            " incorrect_answers ": [
+            "question": " Quelle équipe a remporté la Premier League anglaise 2015-16? ",
+            "correct_answer": " Leicester City ",
+            "incorrect_answers": [
                 " Liverpool ",
                 " Cheslea ",
                 " Manchester United "
@@ -536,9 +536,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Lequel des joueurs suivants a marqué un tour du chapeau lors de ses débuts à Manchester United? ",
-            " correct_answer ": " Wayne Rooney ",
-            " incorrect_answers ": [
+            "question": " Lequel des joueurs suivants a marqué un tour du chapeau lors de ses débuts à Manchester United? ",
+            "correct_answer": " Wayne Rooney ",
+            "incorrect_answers": [
                 " Cristiano Ronaldo ",
                 " Robin Van Persie ",
                 " David Beckham "
@@ -548,9 +548,9 @@
             " type ": " boolean ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Formula E est une série de courses automobiles qui utilise des voitures de course électriques hybrides. ",
-            " correct_answer ": " False ",
-            " incorrect_answers ": [
+            "question": " Formula E est une série de courses automobiles qui utilise des voitures de course électriques hybrides. ",
+            "correct_answer": " False ",
+            "incorrect_answers": [
                 " True "
             ]
         },
@@ -558,9 +558,9 @@
             " type ": " multiple ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Quel pays a accueilli le 2022 Coupe du Monde de la FIFA? ",
-            " correct_answer ": " Qatar ",
-            " incorrect_answers ": [
+            "question": " Quel pays a accueilli le 2022 Coupe du Monde de la FIFA? ",
+            "correct_answer": " Qatar ",
+            "incorrect_answers": [
                 " USA ",
                 " Japan ",
                 " Switzerland "
@@ -570,9 +570,9 @@
             " type ": " boolean ",
             " difficulty ": " easy ",
             " category ": " Sports ",
-            " question ": " Il y a un total de 20 courses dans la saison 2016 de Formule 1. ",
-            " correct_answer ": " Faux ",
-            " incorrect_answers ": [
+            "question": " Il y a un total de 20 courses dans la saison 2016 de Formule 1. ",
+            "correct_answer": " Faux ",
+            "incorrect_answers": [
                 " True "
             ]
         },
@@ -580,9 +580,9 @@
             " type ": " multiple ",
             " difficulty ": " medium ",
             " category ": " Sports ",
-            " question ": " Qui était le meilleur buteur de l'équipe nationale de football anglaise? ",
-            " correct_answer ": " Wayne Rooney ",
-            " incorrect_answers ": [
+            "question": " Qui était le meilleur buteur de l'équipe nationale de football anglaise? ",
+            "correct_answer": " Wayne Rooney ",
+            "incorrect_answers": [
                 " David Beckham ",
                 " Steven Gerrard ",
                 " Michael Owen "
