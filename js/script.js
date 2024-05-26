@@ -9,8 +9,16 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 });
 
 
+// Quiz ui
+
+
+
 //Game Board
 
-const game = new BoardGame(data.results);
+const game = new BoardGame(data.results, 10);
+game.showQuestion();
+console.log(game.currentQuestion);
+console.log(game.score);
+console.log(game.isGameOver())
 
-console.log(game.showQuestion())
+

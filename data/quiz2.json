@@ -167,12 +167,12 @@
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulté ": " facile ",
-            " category ": " Sports ",
-            " question ": " Qui a remporté le championnat du monde de Formule 1 2016 '; s? ",
-            " correct_answer ": " Nico Rosberg ",
-            " incorrect_answers ": [
+            "type": " multiple ",
+            "difficulté": " facile ",
+            "category": " Sports ",
+            "question": " Qui a remporté le championnat du monde de Formule 1 2016 '; s? ",
+            " correct_answer": " Nico Rosberg ",
+            "incorrect_answers": [
                 " Lewis Hamilton ",
                 " Max Verstappen ",
                 " Kimi Raikkonen "

@@ -1,17 +1,20 @@
 
 class Question {
-    constructor(qText, answer) {
-        this.qText = qText;
-        this.correctAnswer = answer;
+    constructor(q) {
+        this.qText = q.question;
+        this.correctAnswer = q.correct_answer;
         this.choices = [];
+        this.getChoices(q);
+
     }
     /**
      * puts the correct answer and incorrect answers in one array.
      * 
      *      */
-    getChoices(array) {
-        array.forEach(element => {
-            this.choices.push(element);
+    getChoices(q) {
+
+        q.incorrect_answers.forEach(a => {
+            this.choices.push(a);
         }
         );
         this.choices.push(this.correctAnswer)
@@ -27,24 +30,24 @@ class Question {
 // console.log(shuffle(q1.choices));
 // console.log(q1)
 class BoardGame {
-    constructor(questionList) {
+    constructor(questionList, numberOFQuestions) {
         this.answeredQuestions = []
         this.score = 0;
         this.nQuestion = 0;
         this.questionList = questionList;
         this.currentQuestion = null;
+        this.numberOFQuestions = numberOFQuestions;
     }
 
     showQuestion() {
         const q = getRandomQuestion(this.questionList);
-        console.log(q)
         this.answeredQuestions.push(q);
-        this.currentQuestion = new Question(q.question, q.correct_answer);
-        this.currentQuestion.getChoices(q.incorrect_answers)
+        this.currentQuestion = new Question(q);
         console.log(this.currentQuestion);
+    }
 
-
-
+    isGameOver() {
+        return this.nQuestion > this.numberOFQuestions;
     }
 
 
