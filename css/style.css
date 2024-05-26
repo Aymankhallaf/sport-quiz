@@ -101,7 +101,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 3rem 1rem 1rem 0;
+    margin: 3rem 1rem 1rem 1rem;
 }
 .quiz-ttl,
 .quiz-score {

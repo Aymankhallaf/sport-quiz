@@ -1,10 +1,8 @@
-import data from '../data/quiz2.json' with { type: 'json' };
-console.log(data);
 
 class Question {
     constructor(qText, answer) {
         this.qText = qText;
-        this.answer = answer;
+        this.correctAnswer = answer;
         this.choices = [];
     }
     /**
@@ -23,23 +21,32 @@ class Question {
 }
 
 
-console.log(data.results[0]['question'])
-const q1 = new Question(data.results[0]['question'], data.results[0]["correct_answer"])
-q1.getChoices(data.results[0]['incorrect_answers']);
-console.log(shuffle(q1.choices));
-console.log(q1)
+// console.log(data.results[0]['question'])
+// const q1 = new Question(data.results[0]['question'], data.results[0]["correct_answer"])
+// q1.getChoices(data.results[0]['incorrect_answers']);
+// console.log(shuffle(q1.choices));
+// console.log(q1)
 class BoardGame {
     constructor(questionList) {
         this.answeredQuestions = []
         this.score = 0;
         this.nQuestion = 0;
         this.questionList = questionList;
+        this.currentQuestion=null;
     }
 
     showQuestion() {
-        const q = getRandomUniqueQuestion(this.questionList);
+        const q = getRandomQuestion(this.questionList);
         this.answeredQuestions.push(q);
+        this.currentQuestion=new Question(q.question,q.correct_answer);
+        this.currentQuestion.getChoices(q.indexOf)
+        console.log(this.currentQuestion);
+
+    
+        
     }
+
+    
 
 
 }
@@ -61,7 +68,10 @@ function shuffle(array) {
  */
 function getRandomQuestion(questionsLst) {
 
-    return questionsLst[Math.floor(Math.random() * array.lenght)];
+    return questionsLst[Math.floor(Math.random() * questionsLst.lenght)];
 
 
 }
+
+
+export{BoardGame}
