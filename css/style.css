@@ -99,24 +99,50 @@ button {
 /* quiz */
 .quiz-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin: 3rem 1rem 1rem 0;
 }
-
 .quiz-ttl,
 .quiz-score {
-    margin: 3rem 1rem;
     font-size: 1rem;
     color: var(--heading-color);
 }
 
+.quiz-container {
+    height: calc(100vh - 7.2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz__img {
+    width: 4.5rem;
+}
+
+.quiz__question {
+    margin: 2rem 1rem;
+    font-weight: normal;
+}
 .quiz__question__answers {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
 }
 
 .quiz__answer {
-    width: 12rem;
+    width: 15rem;
     aspect-ratio: 5;
+}
+
+@media screen and (min-width: 768px) {
+    .quiz__question__answers {
+        display: grid;
+        grid-template-areas:
+            "a a"
+            "a a";
+    }
 }
