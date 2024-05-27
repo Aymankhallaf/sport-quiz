@@ -1,13 +1,11 @@
 
 class Question {
     constructor(q) {
-        console.log(q)
         this.qText = q.question;
         this.correctAnswer = q.correct_answer;
         this.incorrect_answers = q.incorrect_answers;
-        this.choices = [];
-        console.log(this.choices)
-        this.getChoices();
+        this.choices = this.getChoices();
+
 
     }
     /**
@@ -15,11 +13,8 @@ class Question {
      * 
      *      */
     getChoices() {
-        this.incorrect_answers.forEach(a => {
-            this.choices.push(a);
-        }
-        );
-        this.choices.push(this.correctAnswer)
+        const choices = [...this.incorrect_answers, this.correctAnswer];
+        return shuffle(choices);
 
     }
 
@@ -31,7 +26,7 @@ class BoardGame {
         this.questionList = questionList;
         this.numberOFQuestions = numberOFQuestions;
         this.answeredQuestions = []
-        this.score = 1;
+        this.score = 0;
         this.nQuestion = 1;
         this.currentQuestion = this.showQuestion();
     }
@@ -40,7 +35,6 @@ class BoardGame {
         const q = getRandomQuestion(this.questionList);
         this.answeredQuestions.push(q);
         this.currentQuestion = new Question(q);
-        console.log(this.currentQuestion);
         return this.currentQuestion
     }
 
@@ -48,16 +42,16 @@ class BoardGame {
         return this.nQuestion > this.numberOFQuestions;
     }
 
-    isRightAnswer(choiceAnswer) {
+    isCorrect(choiceAnswer) {
         return (choiceAnswer === this.currentQuestion.correctAnswer)
     }
 
-    updateBoardGame() {
+    updateBoardGame(isCorrect) {
         this.nQuestion = +1;
-        if (this.isRightAnswer) {
-            this.score = +1;
+        if (isCorrect) {
+            this.score = +10;
         }
-        this.showQuestion()
+        this.showQuestion();
     }
 
 
@@ -76,6 +70,16 @@ function getRandomQuestion(questionsLst) {
 
 
 }
+
+/**
+ * Shuffles any array.
+ * @param {*} array 
+ * @returns the same array after shuffling
+ */
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+};
+
 
 
 export { BoardGame }

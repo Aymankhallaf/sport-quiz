@@ -112,13 +112,7 @@ button {
     color: var(--heading-color);
 }
 
-/* .quiz-container {
-    height: calc(100vh - 7.2rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-} */
+
 .quiz__img {
     margin: 1rem auto;
     width: 4.5rem;
