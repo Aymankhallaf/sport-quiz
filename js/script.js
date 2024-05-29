@@ -23,8 +23,3 @@ function startGame() {
     displayBoard(game);
 }
 
-// while (game.isGameOver()) {
-
-//     displayBoard(game);
-
-// }

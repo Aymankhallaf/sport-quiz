@@ -1,5 +1,5 @@
 export function displayBoard(game) {
-    
+
     const quizTemplate = document.getElementById("quiz-template")
     let clone = document.importNode(quizTemplate.content, true);
     clone.querySelector('.js-quiz-ttl').innerText = `Question ${game.nQuestion} `;
@@ -13,9 +13,10 @@ export function displayBoard(game) {
         const answerTag = answerClone.querySelector('.js-quiz__answer');
         answerTag.addEventListener("click", (e) => {
             console.log(e.target.innerText);
-            console.log(e.target.innerHTML);
-            console.log(game.isCorrect(e.target.innerText.trim()));
             game.updateBoardGame(game.isCorrect(e.target.innerText.trim()));
+            console.log(game);
+            // displayBoard(game);
+            console.log(game.qText);
         })
         answerTag.innerText = a;
         answerSection.appendChild(answerTag);
