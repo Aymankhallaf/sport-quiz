@@ -1,4 +1,7 @@
 
+/**
+ * class question has qText(question text), the correct answer and incorrect answer.
+ */
 class Question {
     constructor(q) {
         this.qText = q.question;
@@ -9,7 +12,7 @@ class Question {
 
     }
     /**
-     * puts the correct answer and incorrect answers in one array.
+     * gets the correct answer and incorrect answers in one array.
      * 
      *      */
     getChoices() {
@@ -20,7 +23,9 @@ class Question {
 
 }
 
-
+/**
+ * have all board information and logic. question list, score, question numeber,..
+ */
 class BoardGame {
     constructor(questionList, numberOFQuestions) {
         this.questionList = questionList;
@@ -28,15 +33,24 @@ class BoardGame {
         this.answeredQuestions = []
         this.score = 0;
         this.nQuestion = 1;
-        this.currentQuestion = this.showQuestion();
+        this.currentQuestion = this.getQuestion();
     }
 
-    showQuestion() {
-        const q = getRandomQuestion(this.questionList);
+    /**
+     * get a random question from the list.and push it in an answered question array.
+     * @returns {object} the current question.
+     */
+    getQuestion() {
+        let q;
+        do {
+            q = getRandomQuestion(this.questionList);
+        } while (this.answeredQuestions.includes(q));
+
         this.answeredQuestions.push(q);
         this.currentQuestion = new Question(q);
-        return this.currentQuestion
+        return this.currentQuestion;
     }
+
 
     isGameOver() {
         return this.nQuestion > this.numberOFQuestions;
@@ -52,7 +66,7 @@ class BoardGame {
             console.log("gameover");
             return
         }
-        this.showQuestion();
+        this.getQuestion();
         this.nQuestion++;
         if (isCorrect) {
             this.score += 10;
