@@ -14,9 +14,24 @@ export function displayBoard(game) {
         const answerTag = answerClone.querySelector('.js-quiz__answer');
         console.log(game.currentQuestion.correctAnswer);
         answerTag.addEventListener("click", (e) => {
-
-            game.updateBoardGame(game.isCorrect(e.target.innerText.trim()));
-            displayBoard(game);
+            const isCorrect = game.isCorrect(e.target.innerText.trim())
+            if (game.isGameOver()) {
+                document.getElementById("game-over").classList.remove("hidden");
+                document.getElementById("quiz").classList.toggle("hidden");
+                return
+            }
+            if (!isCorrect) {
+                e.target.classList.add("mistake");
+            }
+            setTimeout(() => {
+                if (game.isGameOver()) {
+                    document.getElementById("game-over").classList.remove("hidden");
+                    document.getElementById("quiz").classList.toggle("hidden");
+                    return
+                }
+                game.updateBoardGame(isCorrect);
+                displayBoard(game);
+            }, "1000");
         })
         answerTag.innerText = a;
         answerSection.appendChild(answerTag);
@@ -28,10 +43,3 @@ export function displayBoard(game) {
 
 
 }
-
-
-
-
-// function checkAnswer(e) {
-
-// }

@@ -46,14 +46,15 @@ class BoardGame {
         return (choiceAnswer === this.currentQuestion.correctAnswer)
     }
 
-    updateBoardGame() {
-        if (this.isGameOver) {
-            
+    updateBoardGame(isCorrect) {
+        if (this.isGameOver()) {
+
             console.log("gameover");
+            return
         }
         this.showQuestion();
         this.nQuestion++;
-        if (this.isCorrect) {
+        if (isCorrect) {
             this.score += 10;
         }
     }

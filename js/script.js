@@ -11,12 +11,24 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 
 });
 
+//restart game button
+document.getElementById("restart-game_btn").addEventListener("click", () => {
+    document.getElementById("game-over").classList.toggle("hidden");
+    document.getElementById("quiz").classList.remove("hidden");
+    startGame();
+
+});
+
+
 
 
 //Game Board
 
+/**
+ * start game by creating a new boardGame and display it.
+ */
 function startGame() {
-    const game = new BoardGame(data.results, 10);
+    const game = new BoardGame(data.results, 3);
     displayBoard(game);
 }
 

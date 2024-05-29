@@ -64,9 +64,11 @@ button {
 .mistake:hover,
 :focus {
     background-color: var(--error-color);
+    color: var(--font-color);
 }
-/* start game */
-.start-game {
+/* start game / game over */
+.start-game,
+.game-over {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,29 +76,32 @@ button {
     align-items: center;
 }
 
-.start-game_img {
+.start-game_img,
+.game-over-img {
     margin: 3.4rem auto 0 auto;
 }
 
-.start-game_ttl {
+.start-game_ttl,
+.game-over_ttl {
     margin: auto 1.5rem;
     font-size: 1.2rem;
     color: var(--heading-color);
 }
 
-.start-game_txt {
+.start-game_txt,
+.game-over_txt {
     font-size: 1rem;
     margin: auto 1.5rem;
 }
 
-.start-game_btn {
+.start-game_btn, .restart-game_btn {
     width: 12rem;
     aspect-ratio: 240/84;
     margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 768px) {
-    .start-game_btn {
+    .start-game_btn, .restart-game_btn {
         width: 10rem;
     }
 }
