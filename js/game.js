@@ -37,7 +37,7 @@ class BoardGame {
     }
 
     /**
-     * get a random question from the list.and push it in an answered question array.
+     * get a random unique question from the list.and push it in an answered question array.
      * @returns {object} the current question.
      */
     getQuestion() {
@@ -51,15 +51,28 @@ class BoardGame {
         return this.currentQuestion;
     }
 
-
+    /**
+     * check if the game is over or not.
+     * @returns {boolean}true if the game is over false if it isn't over
+     */
     isGameOver() {
         return this.nQuestion > this.numberOFQuestions;
     }
 
+    /**
+     * check is the anwer is correct or not.
+     * @param {Text} choiceAnswer 
+     * @returns {boolean} true if the question is correct and false if it is false.
+     */
     isCorrect(choiceAnswer) {
         return (choiceAnswer === this.currentQuestion.correctAnswer)
     }
 
+    /**
+     * update the score and the number of question and the shown question.
+     * @param {boolean} isCorrect true if the question is correct and false if it is false.
+     * @returns 
+     */
     updateBoardGame(isCorrect) {
         if (this.isGameOver()) {
 
