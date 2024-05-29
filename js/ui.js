@@ -8,15 +8,15 @@ export function displayBoard(game) {
     //answers
     const answersTemplate = document.getElementById("answers-template");
     const answerSection = document.getElementById("quiz-answers");
+    answerSection.innerText = '';
     game.currentQuestion.choices.forEach(a => {
         const answerClone = document.importNode(answersTemplate.content, true);
         const answerTag = answerClone.querySelector('.js-quiz__answer');
+        console.log(game.currentQuestion.correctAnswer);
         answerTag.addEventListener("click", (e) => {
-            console.log(e.target.innerText);
+
             game.updateBoardGame(game.isCorrect(e.target.innerText.trim()));
-            console.log(game);
-            // displayBoard(game);
-            console.log(game.qText);
+            displayBoard(game);
         })
         answerTag.innerText = a;
         answerSection.appendChild(answerTag);

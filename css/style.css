@@ -60,6 +60,11 @@ button {
     background-color: var(--font-color);
     color: var(--btn-color);
 }
+
+.mistake:hover,
+:focus {
+    background-color: var(--error-color);
+}
 /* start game */
 .start-game {
     height: 100vh;
@@ -112,7 +117,6 @@ button {
     color: var(--heading-color);
 }
 
-
 .quiz__img {
     margin: 1rem auto;
     width: 4.5rem;
@@ -142,5 +146,12 @@ button {
         grid-template-areas:
             "a a"
             "a a";
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .container {
+        width: 950px;
+        margin: auto;
     }
 }

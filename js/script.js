@@ -12,9 +12,6 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 });
 
 
-// Quiz ui
-
-
 
 //Game Board
 
