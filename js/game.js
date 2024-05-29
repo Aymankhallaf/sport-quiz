@@ -47,11 +47,14 @@ class BoardGame {
     }
 
     updateBoardGame(isCorrect) {
-        this.nQuestion = +1;
+        this.nQuestion ++;
         if (isCorrect) {
             this.score = +10;
         }
-        this.showQuestion();
+        if (!this.isGameOver){
+            
+            this.showQuestion();
+        }
     }
 
 

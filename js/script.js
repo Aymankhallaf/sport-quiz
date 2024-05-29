@@ -6,7 +6,9 @@ import { displayBoard } from './ui.js';
 //start game button
 document.getElementById("start-game_btn").addEventListener("click", () => {
     document.getElementById("start-game").classList.toggle("hidden");
-    document.getElementById("quiz").classList.remove("hidden")
+    document.getElementById("quiz").classList.remove("hidden");
+    startGame();
+
 });
 
 
@@ -16,15 +18,13 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 
 //Game Board
 
-const game = new BoardGame(data.results, 10);
-
-
-displayBoard(game)
-
-
-
-while (game.isGameOver()) {
-
+function startGame() {
+    const game = new BoardGame(data.results, 10);
     displayBoard(game);
-
 }
+
+// while (game.isGameOver()) {
+
+//     displayBoard(game);
+
+// }
