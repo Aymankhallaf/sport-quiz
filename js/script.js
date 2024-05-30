@@ -27,7 +27,7 @@ document.getElementById("restart-game_btn").addEventListener("click", () => {
  * start game by creating a new boardGame and display it.
  */
 function startGame() {
-    const game = new BoardGame(data.results, 3);
+    const game = new BoardGame(data.results, 10);
     displayBoard(game);
 }
 

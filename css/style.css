@@ -108,6 +108,7 @@ button {
 
 /* quiz */
 .quiz {
+    height: 100vh;
     text-align: center;
 }
 .quiz-header {
