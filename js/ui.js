@@ -12,7 +12,6 @@ export function displayBoard(game) {
     game.currentQuestion.choices.forEach(a => {
         const answerClone = document.importNode(answersTemplate.content, true);
         const answerTag = answerClone.querySelector('.js-quiz__answer');
-        console.log(game.currentQuestion.correctAnswer);
         answerTag.addEventListener("click", (e) => {
             const isCorrect = game.isCorrect(e.target.innerText.trim())
             if (game.isGameOver()) {
