@@ -18,17 +18,10 @@ document.getElementById("start-game_btn").addEventListener("click", () => {
 
 const game = new BoardGame(data.results, 10);
 game.showQuestion();
-console.log(game.currentQuestion);
-console.log(game.score);
-console.log(game.isGameOver())
-
 displayBoard(game)
 
 
 
 while (game.isGameOver()) {
-    console.log(game.currentQuestion);
-    console.log(game.score);
-    console.log(game.isGameOver())
     displayBoard(game)
 }
