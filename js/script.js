@@ -6,28 +6,30 @@ import { displayBoard } from './ui.js';
 //start game button
 document.getElementById("start-game_btn").addEventListener("click", () => {
     document.getElementById("start-game").classList.toggle("hidden");
-    document.getElementById("quiz").classList.remove("hidden");
-    startGame();
-
-});
-
-//restart game button
-document.getElementById("restart-game_btn").addEventListener("click", () => {
-    document.getElementById("game-over").classList.toggle("hidden");
-    document.getElementById("quiz").classList.remove("hidden");
-    startGame();
-
+    document.getElementById("quiz").classList.remove("hidden")
 });
 
 
+// Quiz ui
 
 
 
-/**
- * start game by creating a new boardGame and display it.
- */
-function startGame() {
-    const game = new BoardGame(data.results, 10);
-    displayBoard(game);
+//Game Board
+
+const game = new BoardGame(data.results, 10);
+game.showQuestion();
+console.log(game.currentQuestion);
+console.log(game.score);
+console.log(game.isGameOver())
+
+displayBoard(game)
+
+
+
+while (game.isGameOver()) {
+    console.log(game.currentQuestion);
+    console.log(game.score);
+    console.log(game.isGameOver())
+    displayBoard(game)
 }
 
