@@ -1,591 +1,591 @@
 {
-    "results": [
+   "results": [
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "En quelle année les Saints de la Nouvelle-Orléans ont-ils remporté le Super Bowl?",
-            "correct_answer": "2010",
-            "incorrect_answers": [
-                "2008",
-                "2009",
-                "2011"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"En quelle année les Saints de la Nouvelle-Orléans ont-ils remporté le Super Bowl?",
+           "correct_answer":"2010",
+           "incorrect_answers": [
+               "2008",
+               "2009",
+               "2011"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "hard",
-            "category": "Sports",
-            "question": "Quel est le nom complet du footballeur; Cristiano Ronaldo?",
-            "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
-            "incorrect_answers": [
-                "Cristiano Ronaldo ldoos Santos Diego",
-                "Cristiano Ronaldo ldoos Santos Diego",
-                "Cristiano Luis Armando Ronaldo"
+           "type":"multiple",
+           "difficulty":"hard",
+           "category":"Sports",
+           "question":"Quel est le nom complet du footballeur; Cristiano Ronaldo?",
+           "correct_answer":"Cristiano Ronaldo dos Santos Aveiro",
+           "incorrect_answers": [
+               "Cristiano Ronaldo ldoos Santos Diego",
+               "Cristiano Ronaldo ldoos Santos Diego",
+               "Cristiano Luis Armando Ronaldo"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "What is Tiger Woods; all-time best career golf-score?",
-            "_correct": "61",
-            "61 incorrect_answers": [
-                "65",
-                "63",
-                "67"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"What is Tiger Woods; all-time best career golf-score?",
+           "_correct":"61",
+           "61 incorrect_answers": [
+               "65",
+               "63",
+               "67"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "In a game of snooker, what colour ball is worth 3 points?",
-            "correct_answer": "Green",
-            "incorrect_answers": [
-                "Yellow",
-                "Brown",
-                "Blue"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"In a game of snooker, what colour ball is worth 3 points?",
+           "correct_answer":"Green",
+           "incorrect_answers": [
+               "Yellow",
+               "Brown",
+               "Blue"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "The Los Angeles Dodgers were originally from what U.S. city?",
-            "correct_answer": "Brooklyn",
-            "incorrect_answers": [
-                "Las Vegas",
-                "Boston",
-                "Seattle"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"The Los Angeles Dodgers were originally from what U.S. city?",
+           "correct_answer":"Brooklyn",
+           "incorrect_answers": [
+               "Las Vegas",
+               "Boston",
+               "Seattle"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Which sport is NOT traditional played during the Mongolian Naadam festival?",
-            "correct_answer": "Football américain",
-            "incorrect_answers": [
-                " Wrestling ",
-                " Archery ",
-                " Horse-Racing "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Which sport is NOT traditional played during the Mongolian Naadam festival?",
+           "correct_answer":"Football américain",
+           "incorrect_answers": [
+               "Wrestling",
+               "Archery",
+               "Horse-Racing"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Quelle équipe de football a remporté le championnat Copa  América 2015? ",
-            " correct_answer ": " Chile ",
-            " incorrect_answers ": [
-                " Argentina ",
-                " Brazil ",
-                " Paraguay "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quelle équipe de football a remporté le championnat Copa  América 2015?",
+           "correct_answer":"Chile",
+           "incorrect_answers": [
+               "Argentina",
+               "Brazil",
+               "Paraguay"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Quelle est la plus ancienne équipe de la NFL? ",
-            " correct_answer ": " Arizona Cardinals ",
-            " incorrect_answers ": [
-                " Chicago Bears ",
-                " Green Bay Packers ",
-                " New York Giants "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quelle est la plus ancienne équipe de la NFL?",
+           "correct_answer":"Arizona Cardinals",
+           "incorrect_answers": [
+               "Chicago Bears",
+               "Green Bay Packers",
+               "New York Giants"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Qui a remporté le titre de champion de la saison 2015-2016 après une course de conte de fées? ",
-            " correct_answer ": " Leester City ",
-            " incorrect_answers ": [
-                "Tottenham Hotsurpots",
-                "Watford",
-                "Stoke City"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Qui a remporté le titre de champion de la saison 2015-2016 après une course de conte de fées?",
+           "correct_answer":"Leester City",
+           "incorrect_answers": [
+               "Tottenham Hotsurpots",
+               "Watford",
+               "Stoke City"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "Quand a eu lieu le premier match international officiel?",
-            "correct_answer": "1872",
-            "incorrect_answers": [
-                "1880",
-                "1863",
-                "1865"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quand a eu lieu le premier match international officiel?",
+           "correct_answer":"1872",
+           "incorrect_answers": [
+               "1880",
+               "1863",
+               "1865"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Qui a gagné la Ligue des champions 1999?",
-            "correct_answer": "Manchester United",
-            "incorrect_answers": [
-                "Barcelona",
-                "Bayern Munich",
-                "Liverpool"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Qui a gagné la Ligue des champions 1999?",
+           "correct_answer":"Manchester United",
+           "incorrect_answers": [
+               "Barcelona",
+               "Bayern Munich",
+               "Liverpool"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Josh Mansour fait partie de quelle équipe NRL?",
-            "correct_answer": "Penrith Panthers",
-            "incorrect_answers": [
-                "Melbourne Storm",
-                "Sydney Roosters",
-                "North Queensland Cowboys"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Josh Mansour fait partie de quelle équipe NRL?",
+           "correct_answer":"Penrith Panthers",
+           "incorrect_answers": [
+               "Melbourne Storm",
+               "Sydney Roosters",
+               "North Queensland Cowboys"
             ]
         },
         {
-            "type": "boolean",
-            "difficulty": "medium",
-            "category": "Sports ",
-            " question ": " Le tennis était autrefois connu sous le nom de Racquetball. ",
-            " correct_answer ": " Faux ",
-            " incorrect_answers ": [
-                " Vrai "
+           "type":"boolean",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Le tennis était autrefois connu sous le nom de Racquetball.",
+           "correct_answer":"Faux",
+           "incorrect_answers": [
+               "Vrai"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulté ": " facile ",
-            " category ": " Sports ",
-            " question ": " Quel club de football anglais a le surnom ' The Foxes ';? ",
-            " correct_answer ": " Leicester City ",
-            " incorrect_answers ": [
-                " Northampton Town ",
-                " Bradford City ",
-                " West Bromwich Albion "
+           "type":"multiple",
+           "difficulté":"facile",
+           "category":"Sports",
+           "question":"Quel club de football anglais a le surnom ' The Foxes ';?",
+           "correct_answer":"Leicester City",
+           "incorrect_answers": [
+               "Northampton Town",
+               "Bradford City",
+               "West Bromwich Albion"
             ]
         },
         {
-            "type": " multiple ",
-            "difficulté": " facile ",
-            "category": " Sports ",
-            "question": " Qui a remporté le championnat du monde de Formule 1 2016 '; s? ",
-            " correct_answer": " Nico Rosberg ",
-            "incorrect_answers": [
-                " Lewis Hamilton ",
-                " Max Verstappen ",
-                " Kimi Raikkonen "
+           "type":"multiple",
+           "difficulté":"facile",
+           "category":"Sports",
+           "question":"Qui a remporté le championnat du monde de Formule 1 2016 '; s?",
+           "correct_answer":"Nico Rosberg",
+           "incorrect_answers": [
+               "Lewis Hamilton",
+               "Max Verstappen",
+               "Kimi Raikkonen"
             ]
         },
         {
-            " type ": " boolean ",
-            "difficulté": "medium",
-            "category": "Sports",
-            "question": "ATP tennis a accueilli plusieurs tournois sur tapis avant d'être remplacé pour réduire les blessures.",
-            "correct_answer": "Vrai",
-            "incorrect_answers": [
-                "Faux"
+           "type":"boolean",
+           "difficulté":"medium",
+           "category":"Sports",
+           "question":"ATP tennis a accueilli plusieurs tournois sur tapis avant d'être remplacé pour réduire les blessures.",
+           "correct_answer":"Vrai",
+           "incorrect_answers": [
+               "Faux"
             ]
         },
         {
-            "type": "multiple",
-            "difficulté": "facile",
-            "category": "Sports",
-            "question": "Quelle équipe l'Angleterre a-t-elle battu pour gagner la finale de la Coupe du Monde 1966?",
-            "correct_answer": "Allemagne de l'Ouest",
-            "incorrect_answers": [
-                "Union soviétique",
-                "Portugal",
-                "Brésil"
+           "type":"multiple",
+           "difficulté":"facile",
+           "category":"Sports",
+           "question":"Quelle équipe l'Angleterre a-t-elle battu pour gagner la finale de la Coupe du Monde 1966?",
+           "correct_answer":"Allemagne de l'Ouest",
+           "incorrect_answers": [
+               "Union soviétique",
+               "Portugal",
+               "Brésil"
             ]
         },
         {
-            "type": "multiple",
-            "difficulté": "moyen",
-            "category": "Sports",
-            "question": "En 2016, qui a remporté le championnat du monde de Formule 1 Constructor '; s pour la troisième fois consécutive?",
-            "correct_answer": "Mercedes-AMG Petronas",
-            "incorrect_answers": [
-                "Scuderia Ferrari",
-                "McLaren Honda",
-                "Red Bull Racing Renault"
+           "type":"multiple",
+           "difficulté":"moyen",
+           "category":"Sports",
+           "question":"En 2016, qui a remporté le championnat du monde de Formule 1 Constructor '; s pour la troisième fois consécutive?",
+           "correct_answer":"Mercedes-AMG Petronas",
+           "incorrect_answers": [
+               "Scuderia Ferrari",
+               "McLaren Honda",
+               "Red Bull Racing Renault"
             ]
         },
         {
-            "type": "boolean",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "En association football, ou soccer, un corner kick est quand le jeu redémarre après que quelqu'un ait marqué un but.",
-            "correct_answer": "False",
-            "incorrect_answers": [
-                "True"
+           "type":"boolean",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"En association football, ou soccer, un corner kick est quand le jeu redémarre après que quelqu'un ait marqué un but.",
+           "correct_answer":"False",
+           "incorrect_answers": [
+               "True"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "En quelle année est née la légende du hockey Wayne Gretzky?",
-            "correct_answer": "1961",
-            "incorrect_answers": [
-                "1965",
-                "1959",
-                "1963"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"En quelle année est née la légende du hockey Wayne Gretzky?",
+           "correct_answer":"1961",
+           "incorrect_answers": [
+               "1965",
+               "1959",
+               "1963"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "Avec qui Steven Gerrard a-t-il remporté la Ligue des champions?",
-            "correct_answer": "Liverpool",
-            "incorrect_answers": [
-                "Real Madrid",
-                "Chelsea",
-                "Man City"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Avec qui Steven Gerrard a-t-il remporté la Ligue des champions?",
+           "correct_answer":"Liverpool",
+           "incorrect_answers": [
+               "Real Madrid",
+               "Chelsea",
+               "Man City"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "The F1 season of 1994 is remembered for what tragic event?",
-            "correct_answer": "Death of Ayrton Senna (San Marino)",
-            "incorrect_answers": [
-                "The Showdown (Australia)",
-                "Verstappen on Fire (Germany)",
-                "Schumacher '; s Ban (Britain)"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"The F1 season of 1994 is remembered for what tragic event?",
+           "correct_answer":"Death of Ayrton Senna (San Marino)",
+           "incorrect_answers": [
+               "The Showdown (Australia)",
+               "Verstappen on Fire (Germany)",
+               "Schumacher '; s Ban (Britain)"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "This Canadian television sportscaster is known for his &quot; Hockey Night in Canada&quot; role, a commentary show during hockey games.",
-            "correct_answer": "Don Cherry",
-            "incorrect_answers": [
-                "Don McKellar",
-                "Don Taylor ",
-                "Donald Sutherland"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"This Canadian television sportscaster is known for his &quot; Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+           "correct_answer":"Don Cherry",
+           "incorrect_answers": [
+               "Don McKellar",
+               "Don Taylor",
+               "Donald Sutherland"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question ": " Quelle était l'équipe? Champions NBA 2014-2015? ",
-            " correct_answer ": " Golden State Warriors ",
-            " incorrect_answers ": [
-                " Cleveland Cavaliers ",
-                " Houston Rockets ",
-                " Atlanta Hawks "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quelle était l'équipe? Champions NBA 2014-2015?",
+           "correct_answer":"Golden State Warriors",
+           "incorrect_answers": [
+               "Cleveland Cavaliers",
+               "Houston Rockets",
+               "Atlanta Hawks"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " hard ",
-            " category ": " Sports ",
-            " question ": " Avec quel partenaire double John McEnroe a-t-il eu le plus de succès? ",
-            " correct_answer ": " Peter Fleming ",
-            " incorrect_answers ": [
-                " Mark Woodforde ",
-                " Michael Stich ",
-                " Mary Carillo "
+           "type":"multiple",
+           "difficulty":"hard",
+           "category":"Sports",
+           "question":"Avec quel partenaire double John McEnroe a-t-il eu le plus de succès?",
+           "correct_answer":"Peter Fleming",
+           "incorrect_answers": [
+               "Mark Woodforde",
+               "Michael Stich",
+               "Mary Carillo"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Quel pilote de Formule 1 a changé d'équipe au milieu de la saison 2017? ",
-            " correct_answer ": " Carlos Sainz Jr. ",
-            " incorrect_answers ": [
-                " Daniil Kvyat ",
-                " Jolyon Palmer ",
-                " Rio Haryanto "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quel pilote de Formule 1 a changé d'équipe au milieu de la saison 2017?",
+           "correct_answer":"Carlos Sainz Jr.",
+           "incorrect_answers": [
+               "Daniil Kvyat",
+               "Jolyon Palmer",
+               "Rio Haryanto"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Dans quel sport un &quot; shuttlecock&quot; est-il utilisé? ",
-            " correct_answer ": " Badminton ",
-            " incorrect_answers ": [
-                " Tennis de table ",
-                " Rugby ",
-                " Cricket "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Dans quel sport un &quot; shuttlecock&quot; est-il utilisé?",
+           "correct_answer":"Badminton",
+           "incorrect_answers": [
+               "Tennis de table",
+               "Rugby",
+               "Cricket"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficult ": " medium ",
-            " category ": " Sports ",
-            " question ": " En Formule 1, la voiture de sécurité virtuelle a été introduite à la suite de l'accident mortel de quel pilote? ",
-            " correct_answer ": " Jules Bianchi ",
-            " incorrect_answers ": [
-                " Ayrton Senna ",
-                " Ronald Ratzenberger ",
-                " Gilles Villeneuve "
+           "type":"multiple",
+           "difficult":"medium",
+           "category":"Sports",
+           "question":"En Formule 1, la voiture de sécurité virtuelle a été introduite à la suite de l'accident mortel de quel pilote?",
+           "correct_answer":"Jules Bianchi",
+           "incorrect_answers": [
+               "Ayrton Senna",
+               "Ronald Ratzenberger",
+               "Gilles Villeneuve"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficult ": " easy ",
-            " category ": " Sports ",
-            " question ": " Quand le FC Schalke 04 a-t-il été fondé? ",
-            " correct_answer ": "1904 ",
-            " incorrect_answers ": [
-                "1909 ",
-                "2008 ",
-                "1999 "
+           "type":"multiple",
+           "difficult":"easy",
+           "category":"Sports",
+           "question":"Quand le FC Schalke 04 a-t-il été fondé?",
+           "correct_answer":"1904",
+           "incorrect_answers": [
+               "1909",
+               "2008",
+               "1999"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficult ": " easy ",
-            " category ": " Sports ",
-            " question ": " Who often called &quot; the Maestro&quot; in the men's tennis circuit? ",
-            " correct_answer ": " Roger Federer ",
-            " incorrect_answers ": [
-                " Bill Tilden ",
-                " Boris Becker ",
-                " Pete Sampras "
+           "type":"multiple",
+           "difficult":"easy",
+           "category":"Sports",
+           "question":"Who often called &quot; the Maestro&quot; in the men's tennis circuit?",
+           "correct_answer":"Roger Federer",
+           "incorrect_answers": [
+               "Bill Tilden",
+               "Boris Becker",
+               "Pete Sampras"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " What is the nickname of Northampton town's rugby union club? ",
-            " correct_answer ": " Saints ",
-            " incorrect_answers ": [
-                " Harlequins ",
-                " Saracens ",
-                " Wasps "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"What is the nickname of Northampton town's rugby union club?",
+           "correct_answer":"Saints",
+           "incorrect_answers": [
+               "Harlequins",
+               "Saracens",
+               "Wasps"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " hard ",
-            " category ": " Sports ",
-            " question ": " What year was the third Super Bowl held? ",
-            " correct_answer ": "1969 ",
-            " incorrect_answers ": [
-                "1968 ",
-                "1971 ",
-                "1970 "
+           "type":"multiple",
+           "difficulty":"hard",
+           "category":"Sports",
+           "question":"What year was the third Super Bowl held?",
+           "correct_answer":"1969",
+           "incorrect_answers": [
+               "1968",
+               "1971",
+               "1970"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            "category": "Sports",
-            "question": "Au bowling, le terme est-il utilisé pour obtenir trois coups consécutifs? ",
-            " correct_answer ": " Turkey ",
-            " incorrect_answers ": [
-                " Flamingo ",
-                " Birdie ",
-                " Eagle "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Au bowling, le terme est-il utilisé pour obtenir trois coups consécutifs?",
+           "correct_answer":"Turkey",
+           "incorrect_answers": [
+               "Flamingo",
+               "Birdie",
+               "Eagle"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Dans le golf, quel est le nom donné à un score de trou de deux sous le par? ",
-            " correct_answer ": " Eagle ",
-            " incorrect_answers ": [
-                " Birdie ",
-                " Bogey ",
-                " Albatross "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Dans le golf, quel est le nom donné à un score de trou de deux sous le par?",
+           "correct_answer":"Eagle",
+           "incorrect_answers": [
+               "Birdie",
+               "Bogey",
+               "Albatross"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Quel est le nom du stade de Manchester United '? ",
-            " correct_answer ": " Old Trafford ",
-            " incorrect_answers ": [
-                " Anfield ",
-                " City of Manchester Stadium ",
-                " St James Park "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quel est le nom du stade de Manchester United '?",
+           "correct_answer":"Old Trafford",
+           "incorrect_answers": [
+               "Anfield",
+               "City of Manchester Stadium",
+               "St James Park"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            "question": "Quel est le plus courant type of pitch throwed by pitchers in baseball?",
-            "correct_answer": "Fastball",
-            "incorrect_answers": [
-                "Slowball",
-                "Screwball",
-                "Palmball"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quel est le plus courant type of pitch throwed by pitchers in baseball?",
+           "correct_answer":"Fastball",
+           "incorrect_answers": [
+               "Slowball",
+               "Screwball",
+               "Palmball"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Who won the 2011 Stanley Cup?",
-            "correct_answer": "Boston Bruins",
-            "incorrect_answers": [
-                "Montreal Canadiens",
-                "New York Rangers",
-                "Toronto Maple Leafs"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Who won the 2011 Stanley Cup?",
+           "correct_answer":"Boston Bruins",
+           "incorrect_answers": [
+               "Montreal Canadiens",
+               "New York Rangers",
+               "Toronto Maple Leafs"
             ]
         },
         {
-            "type": "boolean",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.",
-            "correct_answer": "True",
-            "incorrect_answers": [
-                "False"
+           "type":"boolean",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.",
+           "correct_answer":"True",
+           "incorrect_answers": [
+               "False"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Avec quelle équipe Michael Schumacher a-t-il fait ses débuts en Formule 1 au Grand Prix de Belgique 1991?",
-            "correct_answer": "Jordan",
-            "incorrect_answers": [
-                "Benetton",
-                "Ferrari",
-                "Mercedes"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Avec quelle équipe Michael Schumacher a-t-il fait ses débuts en Formule 1 au Grand Prix de Belgique 1991?",
+           "correct_answer":"Jordan",
+           "incorrect_answers": [
+               "Benetton",
+               "Ferrari",
+               "Mercedes"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Sports",
-            "question": "Quelle ville a été l'origine de l'ancienne équipe de la LNH?",
-            "correct_answer": "Quebec City",
-            "incorrect_answers": [
-                "Houston",
-                "Montreal",
-                "New York"
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quelle ville a été l'origine de l'ancienne équipe de la LNH?",
+           "correct_answer":"Quebec City",
+           "incorrect_answers": [
+               "Houston",
+               "Montreal",
+               "New York"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category": "Sports",
-            "question": "Quel terme de cricket désigne un batteur renvoyé avec un score de zéro?",
-            "correct_answer": "Duck",
-            "incorrect_answers": [
-                "Bye",
-                "Beamer",
-                "Carry"
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quel terme de cricket désigne un batteur renvoyé avec un score de zéro?",
+           "correct_answer":"Duck",
+           "incorrect_answers": [
+               "Bye",
+               "Beamer",
+               "Carry"
             ]
         },
         {
-            "type": "multiple",
-            "difficulty": "medium",
-            "category ": " Sports ",
-            " question ": " which bridge does the annual Oxford and Cambridge boat race start? ",
-            " correct_answer ": " Putney ",
-            " incorrect_answers ": [
-                " Hammersmith ",
-                " Vauxhall ",
-                " Battersea "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"which bridge does the annual Oxford and Cambridge boat race start?",
+           "correct_answer":"Putney",
+           "incorrect_answers": [
+               "Hammersmith",
+               "Vauxhall",
+               "Battersea"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Quelle équipe nationale a remporté l'édition 2016 du Championnat d'Europe de l'UEFA? ",
-            " correct_answer ": " Portugal ",
-            " incorrect_answers ": [
-                " France ",
-                " Germany ",
-                " England "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Quelle équipe nationale a remporté l'édition 2016 du Championnat d'Europe de l'UEFA?",
+           "correct_answer":"Portugal",
+           "incorrect_answers": [
+               "France",
+               "Germany",
+               "England"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " hard ",
-            " category ": " Sports ",
-            " question ": " What tool lend it ' s name to a last-stone advantage in an end in Curling? ",
-            " correct_answer ": " Hammer ",
-            " incorrect_answers ": [
-                " Wrench ",
-                " Drill ",
-                " Screwdriver "
+           "type":"multiple",
+           "difficulty":"hard",
+           "category":"Sports",
+           "question":"What tool lend it ' s name to a last-stone advantage in an end in Curling?",
+           "correct_answer":"Hammer",
+           "incorrect_answers": [
+               "Wrench",
+               "Drill",
+               "Screwdriver"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Quelle équipe a remporté la Premier League anglaise 2015-16? ",
-            " correct_answer ": " Leicester City ",
-            " incorrect_answers ": [
-                " Liverpool ",
-                " Cheslea ",
-                " Manchester United "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quelle équipe a remporté la Premier League anglaise 2015-16?",
+           "correct_answer":"Leicester City",
+           "incorrect_answers": [
+               "Liverpool",
+               "Cheslea",
+               "Manchester United"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Lequel des joueurs suivants a marqué un tour du chapeau lors de ses débuts à Manchester United? ",
-            " correct_answer ": " Wayne Rooney ",
-            " incorrect_answers ": [
-                " Cristiano Ronaldo ",
-                " Robin Van Persie ",
-                " David Beckham "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Lequel des joueurs suivants a marqué un tour du chapeau lors de ses débuts à Manchester United?",
+           "correct_answer":"Wayne Rooney",
+           "incorrect_answers": [
+               "Cristiano Ronaldo",
+               "Robin Van Persie",
+               "David Beckham"
             ]
         },
         {
-            " type ": " boolean ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Formula E est une série de courses automobiles qui utilise des voitures de course électriques hybrides. ",
-            " correct_answer ": " False ",
-            " incorrect_answers ": [
-                " True "
+           "type":"boolean",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Formula E est une série de courses automobiles qui utilise des voitures de course électriques hybrides.",
+           "correct_answer":"False",
+           "incorrect_answers": [
+               "True"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Quel pays a accueilli le 2022 Coupe du Monde de la FIFA? ",
-            " correct_answer ": " Qatar ",
-            " incorrect_answers ": [
-                " USA ",
-                " Japan ",
-                " Switzerland "
+           "type":"multiple",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Quel pays a accueilli le 2022 Coupe du Monde de la FIFA?",
+           "correct_answer":"Qatar",
+           "incorrect_answers": [
+               "USA",
+               "Japan",
+               "Switzerland"
             ]
         },
         {
-            " type ": " boolean ",
-            " difficulty ": " easy ",
-            " category ": " Sports ",
-            " question ": " Il y a un total de 20 courses dans la saison 2016 de Formule 1. ",
-            " correct_answer ": " Faux ",
-            " incorrect_answers ": [
-                " True "
+           "type":"boolean",
+           "difficulty":"easy",
+           "category":"Sports",
+           "question":"Il y a un total de 20 courses dans la saison 2016 de Formule 1.",
+           "correct_answer":"Faux",
+           "incorrect_answers": [
+               "True"
             ]
         },
         {
-            " type ": " multiple ",
-            " difficulty ": " medium ",
-            " category ": " Sports ",
-            " question ": " Qui était le meilleur buteur de l'équipe nationale de football anglaise? ",
-            " correct_answer ": " Wayne Rooney ",
-            " incorrect_answers ": [
-                " David Beckham ",
-                " Steven Gerrard ",
-                " Michael Owen "
+           "type":"multiple",
+           "difficulty":"medium",
+           "category":"Sports",
+           "question":"Qui était le meilleur buteur de l'équipe nationale de football anglaise?",
+           "correct_answer":"Wayne Rooney",
+           "incorrect_answers": [
+               "David Beckham",
+               "Steven Gerrard",
+               "Michael Owen"
             ]
         }
     ]

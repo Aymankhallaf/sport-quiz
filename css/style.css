@@ -60,8 +60,15 @@ button {
     background-color: var(--font-color);
     color: var(--btn-color);
 }
-/* start game */
-.start-game {
+
+.mistake:hover,
+:focus {
+    background-color: var(--error-color);
+    color: var(--font-color);
+}
+/* start game / game over */
+.start-game,
+.game-over {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -69,34 +76,40 @@ button {
     align-items: center;
 }
 
-.start-game_img {
+.start-game_img,
+.game-over-img {
     margin: 3.4rem auto 0 auto;
 }
 
-.start-game_ttl {
+.start-game_ttl,
+.game-over_ttl {
     margin: auto 1.5rem;
     font-size: 1.2rem;
     color: var(--heading-color);
 }
 
-.start-game_txt {
+.start-game_txt,
+.game-over_txt {
     font-size: 1rem;
     margin: auto 1.5rem;
 }
 
-.start-game_btn {
+.start-game_btn, .restart-game_btn {
     width: 12rem;
     aspect-ratio: 240/84;
     margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 768px) {
-    .start-game_btn {
+    .start-game_btn, .restart-game_btn {
         width: 10rem;
     }
 }
 
 /* quiz */
+.quiz {
+    text-align: center;
+}
 .quiz-header {
     display: flex;
     flex-direction: row;
@@ -109,14 +122,8 @@ button {
     color: var(--heading-color);
 }
 
-.quiz-container {
-    height: calc(100vh - 7.2rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
 .quiz__img {
+    margin: 1rem auto;
     width: 4.5rem;
 }
 
@@ -144,5 +151,12 @@ button {
         grid-template-areas:
             "a a"
             "a a";
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .container {
+        width: 950px;
+        margin: auto;
     }
 }

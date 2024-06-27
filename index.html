@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png">
     <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet'>
     <title>Quiz Sport</title>
 </head>
@@ -17,33 +18,42 @@
                 questions ?</p>
             <button id="start-game_btn" type="button" title="start" class="btn start-game_btn">Commencer</button>
         </section>
-        <section id="quiz" class="quiz hidden">
-
-            <template id="quiz-template">
-                <header class="quiz-header">
-                    <h2 class="quiz-ttl js-quiz-ttl">Question 1</h2>
-                    <p class="quiz-score js-quiz-score">Score:0</p>
-                </header>
-                <div class="quiz-container">
-                    <img class="quiz__img" src="./img/archery.svg" alt="olymbic sport icon">
-                    <h3 class="quiz__question js-quiz__question">Quel est le nom complet du footballeur; Cristiano
-                        Ronaldo?</h3>
-                    <ul class="quiz__question__answers">
-                        <li class="quiz-question__li js-quiz-question__li"><button class="btn quiz__answer"
-                                type="button" title="answer">Cristiano
-                                Ronaldo dos Aveiro</button></li>
-
-                    </ul>
-                </div>
-            </template>
+        <section id="quiz" class="container quiz hidden">
 
 
+            <ul id="quiz-answers" class="quiz__question__answers js-quiz__question__answers">
+            </ul>
         </section>
+
+            <section id='game-over' class="game-over hidden">
+                <img class="game-over-img" src="./img/logo.svg" alt="logo Jeux Olympiques de Paris 2024">
+                <h4 class="game-over_ttl">Game Over</h4>
+                <p class="game-over_txt">Voulez vous jouer encore?</p>
+                <button id="restart-game_btn" type="button" title="start" class="btn start-game_btn">Rejouer</button>
+            </section>
+
 
     </main>
 
     <script type="module" src="js/script.js"></script>
 
 </body>
+<template id="quiz-template">
+    <header class="quiz-header">
+        <h2 class="quiz-ttl js-quiz-ttl">Question 1</h2>
+        <p class="quiz-score js-quiz-score">Score:0</p>
+    </header>
+    <div class="quiz-container">
+        <img class="quiz__img" src="./img/archery.svg" alt="olymbic sport icon">
+        <h3 class="quiz__question js-quiz__question">Quel est le nom complet du footballeur; Cristiano
+            Ronaldo?</h3>
+
+</template>
+<template id="answers-template">
+    <li><button class="btn quiz__answer js-quiz__answer" type="button" title="answer">Cristiano
+            Ronaldo dos Aveiro</button></li>
+</template>
+
+
 
 </html>

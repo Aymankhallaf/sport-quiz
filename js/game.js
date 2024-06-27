@@ -1,68 +1,94 @@
 
+/**
+ * class question has qText(question text), the correct answer and incorrect answer.
+ */
 class Question {
     constructor(q) {
         this.qText = q.question;
         this.correctAnswer = q.correct_answer;
-        this.choices = [];
-        this.getChoices(q);
+        this.incorrect_answers = q.incorrect_answers;
+        this.choices = this.getChoices();
+
 
     }
     /**
-     * puts the correct answer and incorrect answers in one array.
+     * gets the correct answer and incorrect answers in one array.
      * 
      *      */
-    getChoices(q) {
-
-        q.incorrect_answers.forEach(a => {
-            this.choices.push(a);
-        }
-        );
-        this.choices.push(this.correctAnswer)
+    getChoices() {
+        const choices = [...this.incorrect_answers, this.correctAnswer];
+        return shuffle(choices);
 
     }
-
-}
-
-
-// console.log(data.results[0]['question'])
-// const q1 = new Question(data.results[0]['question'], data.results[0]["correct_answer"])
-// q1.getChoices(data.results[0]['incorrect_answers']);
-// console.log(shuffle(q1.choices));
-// console.log(q1)
-class BoardGame {
-    constructor(questionList, numberOFQuestions) {
-        this.answeredQuestions = []
-        this.score = 0;
-        this.nQuestion = 0;
-        this.questionList = questionList;
-        this.currentQuestion = null;
-        this.numberOFQuestions = numberOFQuestions;
-    }
-
-    showQuestion() {
-        const q = getRandomQuestion(this.questionList);
-        this.answeredQuestions.push(q);
-        this.currentQuestion = new Question(q);
-        console.log(this.currentQuestion);
-    }
-
-    isGameOver() {
-        return this.nQuestion > this.numberOFQuestions;
-    }
-
-
-
 
 }
 
 /**
- * Shuffles any array.
- * @param {*} array 
- * @returns the same array after shuffling
+ * have all board information and logic. question list, score, question numeber,..
  */
-function shuffle(array) {
-    return array.sort(() => Math.random() - 0.5);
-};
+class BoardGame {
+    constructor(questionList, numberOFQuestions) {
+        this.questionList = questionList;
+        this.numberOFQuestions = numberOFQuestions;
+        this.answeredQuestions = []
+        this.score = 0;
+        this.nQuestion = 1;
+        this.currentQuestion = this.getQuestion();
+    }
+
+    /**
+     * get a random unique question from the list.and push it in an answered question array.
+     * @returns {object} the current question.
+     */
+    getQuestion() {
+        let q;
+        do {
+            q = getRandomQuestion(this.questionList);
+        } while (this.answeredQuestions.includes(q));
+
+        this.answeredQuestions.push(q);
+        this.currentQuestion = new Question(q);
+        return this.currentQuestion;
+    }
+
+    /**
+     * check if the game is over or not.
+     * @returns {boolean}true if the game is over false if it isn't over
+     */
+    isGameOver() {
+        return this.nQuestion > this.numberOFQuestions;
+    }
+
+    /**
+     * check is the anwer is correct or not.
+     * @param {Text} choiceAnswer 
+     * @returns {boolean} true if the question is correct and false if it is false.
+     */
+    isCorrect(choiceAnswer) {
+        return (choiceAnswer === this.currentQuestion.correctAnswer)
+    }
+
+    /**
+     * update the score and the number of question and the shown question.
+     * @param {boolean} isCorrect true if the question is correct and false if it is false.
+     * @returns 
+     */
+    updateBoardGame(isCorrect) {
+        if (this.isGameOver()) {
+
+            console.log("gameover");
+            return
+        }
+        this.getQuestion();
+        this.nQuestion++;
+        if (isCorrect) {
+            this.score += 10;
+        }
+    }
+
+
+
+}
 
 
 /**
@@ -76,6 +102,16 @@ function getRandomQuestion(questionsLst) {
 
 
 }
+
+/**
+ * Shuffles any array.
+ * @param {*} array 
+ * @returns the same array after shuffling
+ */
+function shuffle(array) {
+    return array.sort(() => Math.random() - 0.5);
+};
+
 
 
 export { BoardGame }
